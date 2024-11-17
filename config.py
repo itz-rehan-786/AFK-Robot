@@ -6,7 +6,7 @@ API_ID = int(getenv("API_ID"))
 API_HASH = getenv("API_HASH")
 
 BOT_TOKEN = getenv("BOT_TOKEN")
-LOG_ID = int(getenv("LOG_ID", ""))
+LOG_ID = int(getenv("LOG_ID", "-1002272021040"))
 
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
-SUDO_USER = list(map(int, getenv("SUDO_USER", "").split()))
+SUDO_USER = list(map(int, getenv("SUDO_USER", "7775259302").split()))
